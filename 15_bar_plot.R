@@ -1,0 +1,5 @@
+subjects <- c("Math", "Science", "English", "History", "Art")
+marks <- c(85, 90, 78, 88, 92)
+barplot(marks, names.arg = subjects, col = "skyblue", main = "Subject Marks", xlab = "Subjects", ylab = "Marks")
+#text(1:5, marks + 2, labels = marks, col = "blue", cex = 1)
+par(las = 1)
